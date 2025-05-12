@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <table id="transactions-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Дата и Время</th>
+                <th>Категория транзакции</th>
+                <th>Сумма</th>
+                <th>Краткое описание транзакции</th>
+                <th>Действие</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <div>
+        <h2>Общая сумма: <span id="total-amount">0</span></h2>
+    </div>
+    <div id="transaction-options-container">
+        <!-- Add transaction section -->
+        <div id="new-transaction-form">
+            <h2>Добавить транзакцию</h2>
+            <form id="transaction-form">
+                <label for="transaction-date">Дата и Время:</label>
+                <input type="datetime-local" id="transaction-date" name="transaction-date" required><br>
+
+                <label for="transaction-category">Категория транзакции:</label>
+                <input type="text" id="transaction-category" name="transaction-category" required><br>
+
+                <label for="transaction-amount">Сумма:</label>
+                <input type="number" id="transaction-amount" name="transaction-amount" required><br>
+
+                <label for="transaction-description">Краткое описание транзакции:</label>
+                <input type="text" id="transaction-description" name="transaction-description"><br>
+
+                <button type="submit">Сохранить</button>
+            </form>
+        </div>
+
+        <!-- Details section -->
+        <div id="transaction-details" style="display: none;">
+        </div>
+    </div>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</body>
+</html>
