@@ -63,7 +63,9 @@ addTransaction('2025-05-12T14:30', -50, 'Еда', 'Обед в кафе');
 
 #### Фрагмент интерфейса
 
-![Пример интерфейса](https://via.placeholder.com/600x200?text=Скриншот+интерфейса)
+![image](https://github.com/user-attachments/assets/68698bd0-a661-47ae-88af-6238bbc36e11)
+![image](https://github.com/user-attachments/assets/47ff692a-4064-4f6b-a6b3-99823f8bf5bf)
+
 
 ---
 
